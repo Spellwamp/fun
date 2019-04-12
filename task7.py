@@ -3,9 +3,9 @@
 якщо така дата є в нашому календарі, і False - в іншому випадку.
 """
 def data(day, month, year):
-    import datetime
+    from datetime import date
     try:
-        datetime.date(year=year, month=month, day=day)
+        date(year=year, month=month, day=day)
         return True
     except:
         return False
