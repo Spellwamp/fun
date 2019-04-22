@@ -28,9 +28,6 @@ class Rectangle(object):
         self.width = width
         pygame.draw.rect(screen, GREEN, (self.x_pos, self.y_pos, self.height, self.width))
 
-    def randomColor(self):
-        self.colores = [self.one, self.two, self.three]
-
     def draw1(self):
         pygame.draw.rect(screen, [self.one, self.two, self.three], (self.x_pos1, self.y_pos1, self.height1, self.width1))
 
