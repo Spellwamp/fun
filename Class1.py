@@ -80,7 +80,7 @@ pygame.init()
 size = (1400, 900)
 screen = pygame.display.set_mode(size)
 
-pygame.display.set_caption("My Game")
+pygame.display.set_caption("What this")
 
 done = False
 
